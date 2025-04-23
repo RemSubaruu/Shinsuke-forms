@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* スタイル付け */
+        .checkboxArea {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 1行に3つの列を作成 */
+            gap: 1px; /* チェックボックス間の余白を設定 */
+        }
+
+        .checkboxArea label {
+            display: block; /* ラベルをブロック要素として表示 */
+        }
+    </style>
+</head>
+    <b text align="left"><p style="background-color:lightblue;">Section 1</p></b>
+<body>
+    <hr align="left" />
+    <ol type="1">
+        <li>Which of the, following services do you use?</li>
+    <div class="checkboxArea">
+        <label>
+            <input type="checkbox"> Service 1
+        </label>
+        <label>
+            <input type="checkbox"> Service 2
+        </label>
+        <label>
+            <input type="checkbox"> Service 3
+        </label>
+        <label>
+            <input type="checkbox"> Service 4
+        </label>
+    </div>
+        <li>How would you rate our services in terms of the following category:</li>
+        <table border="1">
+            <tr bgcolor="lightblue">
+                <td colspan="1"></td>
+                <td width="10%" text align="center">Excellent</td>
+                <td width="10%" text align="center">Very Good</td>
+                <td width="10%" text align="center">Fair</td>
+                <td width="10%" text align="center">Poor</td>
+            </tr>
+            <tr>
+                <td>Your overall experience</td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+            </tr>
+            <tr>
+                <td>Value of our service</td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+            </tr>
+            <tr>
+                <td>Promptness of our service</td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+            </tr>
+            <tr>
+                <td>Courtesy of our representative</td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+                <td><input type="radio" name="radio_group" value="option1"></td>
+            </tr>
+        </table>
+        <li>Please write your comments or suggestions</li>
+        <textarea name="feedback" rows="3" cols="120%">
+        </textarea>
+    </ol>
+    <b text align="left"><p style="background-color: lightblue">Section 2</p></b>
+    <ol type="1">
+        <li>How can we reach to you?</li>
+    <h5>Name <input size="80" type="text" /></font></p></h5>
+    <h5>Phone <input size="80" type="text"/></font></p></h5>
+    <h5>Email <input size="80" type="text"/></font></p></h5>
+    </ol>
+
+</body>
+</html>
